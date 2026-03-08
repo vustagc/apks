@@ -7,10 +7,10 @@ plugins {
 
 android {
     compileSdk = libs.versions.compileSdk.get().toInt()
-    namespace = "com.example.jetnews"
+    namespace = "pt.isec.ipc"
 
     defaultConfig {
-        applicationId = "com.example.jetnews"
+        applicationId = "pt.isec.ipc"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1
